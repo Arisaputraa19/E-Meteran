@@ -100,12 +100,12 @@ Proyek ini dilisensikan di bawah lisensi [MIT](LICENSE). Silakan lihat file `LIC
 
 **Catatan:** Proyek ini dipublikasikan untuk keperluan akademik dan portofolio.
 
-# E-Meteran
+## E-Meteran
 
-# Admin : Email : admin@example.com, Pass : password123
+## Admin : Email : admin@example.com, Pass : password123
 
-# User : Email Pelanggan, Pass : 123456789
+## User : Email Pelanggan, Pass : 123456789
 
-# Petugas : Email Petugas, Pass : 123456789
+## Petugas : Email Petugas, Pass : 123456789
 
-# E-Meteran - Tugas Akhir Universitas Subang
+## E-Meteran - Tugas Akhir Universitas Subang
