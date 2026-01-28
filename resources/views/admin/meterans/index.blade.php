@@ -75,7 +75,7 @@
             </form>
           </td>
           <td class="px-5 py-4 space-x-2 whitespace-nowrap">
-  @if ($meteran->status_bayar === 'BELUM')
+  @if ($meteran->status_bayar === 'BELUM' || $meteran->status_bayar === 'DITERIMA PETUGAS')
     <form action="{{ route('meterans.markAsLunas', $meteran->id) }}" method="POST" onsubmit="return confirm('Tandai meteran ini sebagai LUNAS?')">
       @csrf
       @method('PATCH')

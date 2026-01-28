@@ -67,6 +67,7 @@
         <label for="status_bayar" class="block font-medium">Status Bayar</label>
         <select name="status_bayar" class="w-full border-gray-300 rounded-md">
           <option value="BELUM">BELUM</option>
+          <option value="DITERIMA PETUGAS">DITERIMA PETUGAS</option>
           <option value="LUNAS">LUNAS</option>
         </select>
       </div>

@@ -68,6 +68,7 @@
         <label for="status_bayar" class="block font-medium">Status Bayar</label>
         <select name="status_bayar" class="w-full border-gray-300 rounded-md">
           <option value="BELUM" {{ $meteran->status_bayar == 'BELUM' ? 'selected' : '' }}>BELUM</option>
+          <option value="DITERIMA PETUGAS" {{ $meteran->status_bayar == 'DITERIMA PETUGAS' ? 'selected' : '' }}>DITERIMA PETUGAS</option>
           <option value="LUNAS" {{ $meteran->status_bayar == 'LUNAS' ? 'selected' : '' }}>LUNAS</option>
         </select>
       </div>
